@@ -15,6 +15,8 @@ export default function SearchResult() {
       });
   }, []);
 
+  // Kilde for å fetche api: https://blog.logrocket.com/modern-api-data-fetching-methods-react/
+
   const handleSubmit = (term) => {
     if (term !== "") {
       fetch(`http://www.omdbapi.com/?type=movie&apikey=35c19dc3&s=${term}`)

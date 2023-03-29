@@ -5,7 +5,7 @@ export default function SearchBar({ onSubmit }) {
   const [term, setTerm] = useState("");
 
   const handleMovieSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Bruker preventDefault for at form ikke skal oppføre seg en vanlig form. Kilde: https://legacy.reactjs.org/docs/forms.html
     onSubmit(term);
     setTerm("");
   };
