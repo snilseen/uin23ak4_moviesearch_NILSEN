@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+
+.movie-card {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 20rem;
+  font-size: 1.5rem;
+  border: 1px solid #c7c4c4;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 1rem;
+}

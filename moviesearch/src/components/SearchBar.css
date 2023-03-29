@@ -1,0 +1,26 @@
+.search-bar {
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 120rem;
+}
+
+.search-bar form {
+  margin: 0 auto;
+  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar label {
+  display: flex;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.search-bar button {
+  width: 20rem;
+  display: flex;
+  align-self: center;
+}
